@@ -1,5 +1,8 @@
-h1 {
-    color: rgb(1,9,64);
+.h1 {
+    color: #01452c;
+}
+.p{
+    color:#01452c;
 }
 #contact {
     text-align: center;

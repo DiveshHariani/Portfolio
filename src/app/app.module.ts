@@ -11,6 +11,8 @@ import { BooksComponent } from './books/books.component';
 import { AchievementsComponent } from './achievements/achievements.component';
 import { ContactComponent } from './contact/contact.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ArticlesComponent } from './articles/articles.component';
+import { InteractionsComponent } from './interactions/interactions.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { NavbarComponent } from './navbar/navbar.component';
     BooksComponent,
     AchievementsComponent,
     ContactComponent,
-    NavbarComponent
+    NavbarComponent,
+    ArticlesComponent,
+    InteractionsComponent
   ],
   imports: [
     BrowserModule

@@ -1,13 +1,14 @@
 #books {
   text-align: center;
-  padding: 3% 15% 3%
+  padding: 3% 15% 3%;
+  background-color: #01452c;
 }
 h1,h2{
-    color:#01452c;
-}
-.image_size {
-  width: 700px;
+    color:#BE6D54;
 }
 .heading{
   margin-top:2%
+}
+p{
+  color:wheat;
 }
