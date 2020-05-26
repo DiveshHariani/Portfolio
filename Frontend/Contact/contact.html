@@ -12,37 +12,84 @@
   <link rel="stylesheet" type="text/css" href="contact.css">
 </head>
 <body>
-<div class="container">
-<hr>
-<h3 class="text-center">Contact Me</h3>
-<hr>
-
-<div class="row">
-  <div class="col-md-6">
-      <form action="/post" method="post">
-        <input class="form-control" name="name" placeholder="Name" required /><br />
-        <input class="form-control" name="phone" placeholder="Phone" required/><br />
-        <input class="form-control" name="email" placeholder="E-mail" required/><br />
-        <input class="form-control" name="subject" placeholder="Subject" required/><br />
-        <textarea class="form-control" name="text" placeholder="Message" style="height:200px;"></textarea><br />
-        <input class="btn btn-primary" type="submit" value="Send" /><br /><br />
-      </form>
-  </div>
-  <div class="col-md-6">
-    <h4 class="text-center">Dr. Anjali Shrikant Yeole</h4> <br />
-    <img src="https://spng.pngfind.com/pngs/s/5-52768_girl-avatar-download-transparent-png-image-png-download.png" class="rounded img-fluid mx-auto d-block"><br />
-    <i style="padding-top: 0px">Assistant Professor in Vivekanand Education Society's Institute of Technology</i><br />
-    Phone: 9930331315<br />
-    E-mail: <a href="mailto:anjali.yeole@ves.ac.in">anjali.yeole@ves.ac.in</a><br /><br />
-    
-     <a href="https://in.linkedin.com/in/anjali-yeole-69538055"><i class="fab fa-linkedin-in"></i></a>
+<div class="section" id="contact">
+        <div class="cc-contact-information" style="background-image: url('assets/images/contact.jpg');">
+          <div class="container">
+            <div class="cc-contact">
+              <div class="row">
+                <div class="col-md-9">
+                  <div class="card mb-0" data-aos="zoom-in">
+                    <div class="h4 text-center title">Contact Me</div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="card-body">
+                          <form name="form" novalidate>
+                            <div class="p pb-3">
+                              <strong>Feel free to contact me </strong>
+                            </div>
+                            <div class="row mb-3">
+                              <div class="col">
+                                <div class="input-group">
+                                  <input class="form-control" type="text" name="name" placeholder="Name"
+                                    required />
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row mb-3">
+                              <div class="col">
+                                <div class="input-group">
+                                  <input class="form-control" type="text" name="subject" placeholder="Subject"
+                                    required />
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row mb-3">
+                              <div class="col">
+                                <div class="input-group">
+                                  <input class="form-control" type="text" name="email" placeholder="E-mail" required />
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row mb-3">
+                              <div class="col">
+                                <div class="form-group">
+                                  <textarea class="form-control" name="message" placeholder="Your Message"
+                                    required></textarea>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col">
+                                <button class="btn btn-primary" type="submit">Send</button>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="card-body">
+                          <p class="mb-0">
+                            <strong>Phone</strong>
+                          </p>
+                          <p class="pb-2">+91 123456789</p>
+                          <p class="mb-0">
+                            <strong>Email</strong>
+                          </p>
+                          <p>anjali.yeole@ves.ac.in</p>
+						  <a href="https://in.linkedin.com/in/anjali-yeole-69538055"><i class="fab fa-linkedin-in"></i></a>
      <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
      <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
      <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-
-  </div>
-</div>
-
-</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ng-snotify class="material"></ng-snotify>
 </body>
 </html>
