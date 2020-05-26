@@ -1,0 +1,60 @@
+#home {
+  /* border: 5px solid red; */
+  padding-top: 4vw;
+  background-color: #01452c;
+}
+.heading {
+  font-family: sans-serif;
+  position: relative;
+}
+.image-column{
+  width:20vw;
+  height:30%;
+  /* margin-top: 2%; */
+}
+.home-image {
+  border-radius: 100%;
+  width: 70%;
+  margin: 1vw;
+  margin-top: 7vw;
+  position:relative;
+  left:15%;
+}
+div{
+    background-color: #01452c;
+
+}
+h1{
+    font-size: 4vw;
+    color:#BE6D54;
+    overflow: hidden;
+    border-right: .15em solid #BE6D54;
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation: typing 4s steps(40, end),
+              blink-caret 1s step-end 4;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+  to {
+    width: 30%
+  }
+}
+
+@keyframes blink-caret {
+ from,
+  to {
+    border-color: transparent
+  }
+  30% {
+    border-color: black;
+  }
+}
+
+h3{
+  font-size: 3vw;
+  color:wheat;
+}

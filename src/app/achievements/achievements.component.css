@@ -1,0 +1,11 @@
+h1,h2{
+    color:#BE6D54;
+}
+p{
+    color:wheat;
+}
+#achievements {
+  text-align: center;
+  padding: 3% 15% 3%;
+  background-color:#01452c;
+}

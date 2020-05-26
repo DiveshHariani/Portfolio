@@ -1,0 +1,39 @@
+#education {
+  text-align: center;
+  padding: 5vw 15% 3%;
+  background-color: #01452c;
+}
+
+.image_size {
+  width: 700px;
+}
+p{
+    color:wheat;
+}
+h1{
+    color:#BE6D54;
+}
+.edu-details {
+  color: wheat;
+  overflow: auto;
+  height: 200px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
